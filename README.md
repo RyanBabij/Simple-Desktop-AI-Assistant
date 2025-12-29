@@ -81,3 +81,23 @@ SCREENSHOT_QUALITY = 75
 PUSH_TO_TALK_KEY = keyboard.Key.caps_lock
 ```
 
+### Sample Output
+```
+PS E:\Simple-AI-Assistant> python .\chatbot.py
+Loading Whisper model...
+Whisper model loaded in 2.76 seconds.
+Voice Chat: Hold CAPS LOCK to talk. Release to send. Press CTRL + CAPS LOCK to send a screenshot of currently active window. You can reboot with CTRL + R
+
+Initializing audio input stream...
+Audio input stream ready.
+Recording started.
+Recording stopped. Transcribing...
+Transcription finished in 0.62 seconds.
+[en 1.00] Testing one, two, three.
+
+GPT: Testing received. How can I assist you today?
+
+Saved screenshot: screenshots\screenshot_20251229_230009_242032.jpg
+GPT (screenshot): Windows PowerShell running Python chatbot transcription.
+```
+
